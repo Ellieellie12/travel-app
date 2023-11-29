@@ -1,9 +1,13 @@
 // import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
-import './NavBar.module.css'
+//css
+import '../navbar/NavBar.css'
+
+//components
 import Button from '../button/Button'
+
 
 
 function NavBar() {
@@ -21,14 +25,15 @@ function NavBar() {
     }
   } 
 
-  window.addEventListener('resize' , showButton)
+  window.addEventListener('resize', showButton)
 
   return (
   <>
     <nav className='navbar'>
       <div className='navbar-container'>
         <Link to='/' className="navbar-logo">
-          TRAVEL <i className="fa-solid fa-passport" />
+          TRAVEL 
+          <i className="fa-solid fa-passport" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
