@@ -8,7 +8,7 @@ function NavBar() {
     <nav className='navbar'>
       <div className='navbar-container'>
         <Link to='/' className="navbar-logo">
-          TRAVEL
+          TRAVEL <i className="fa-solid fa-passport"></i>
         </Link>
       </div>
     </nav>
