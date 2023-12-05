@@ -35,7 +35,7 @@ function NavBar() {
   <>
     <nav className='navbar'>
       <div className='navbar-container'>
-        <Link to='/' className="navbar-logo">
+        <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
           TRAVEL 
           <i className="fa-solid fa-passport" />
         </Link>
