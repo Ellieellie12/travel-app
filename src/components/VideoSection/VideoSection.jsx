@@ -13,6 +13,9 @@ function VideoSection() {
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
           GET STARTED 
         </Button>
+        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+          WATCH TRAILER <i className='fa-solid fa-video'/>
+        </Button>
       </div>
     </div>
   )

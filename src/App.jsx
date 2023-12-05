@@ -6,6 +6,7 @@ import {Routes, Route} from 'react-router-dom'
 
 //components
 import NavBar from './components/navbar/NavBar'
+import Home from './components/pages/Home'
 
 //styles
 import './App.css'
@@ -16,7 +17,7 @@ function App() {
     <>
     <NavBar />
         <Routes>
-          <Route path ='/' />
+          <Route path ='/' exact component= {Home}/>
 
 
 
