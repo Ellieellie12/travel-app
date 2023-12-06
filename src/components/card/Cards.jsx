@@ -1,4 +1,5 @@
 import CardItem from "../carditem/CardItem"
+import '../card/Cards.css'
 
 
 function Cards() {
