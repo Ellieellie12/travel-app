@@ -22,7 +22,8 @@ function Footer() {
             type='email' 
             name='email' 
             placeholder='Your Email' 
-            className='footer-input' 
+            className='footer-input'
+            autoComplete='off'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
@@ -74,7 +75,7 @@ function Footer() {
           <small className='website-rights'>TRAVEL © 2023</small>
           <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
@@ -82,7 +83,7 @@ function Footer() {
               <i className='fab fa-facebook-f' />
             </Link>
             <Link
-              class='social-icon-link instagram'
+              className='social-icon-link instagram'
               to='/'
               target='_blank'
               aria-label='Instagram'
@@ -90,7 +91,7 @@ function Footer() {
               <i className='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
@@ -98,7 +99,7 @@ function Footer() {
               <i className='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
@@ -106,7 +107,7 @@ function Footer() {
               <i className='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
