@@ -66,44 +66,54 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              TRAVEL <i className='fa-solid fa-passport' />
+          <Link to='/' className='social-logo'>
+              TRAVEL
+              <i className="fa-solid fa-passport" />
             </Link>
           </div>
-          <small className="website-rights">TRAVEL</small>
-          <div className="social-icons">
-            <Link className="social-icon-link facebook" 
-            to='/'
-            target='blank'
-            aria-label='Facebook'>
-              <i className='fab fa-facebook-f'></i>
+          <small className='website-rights'>TRAVEL © 2023</small>
+          <div className='social-icons'>
+            <Link
+              class='social-icon-link facebook'
+              to='/'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <i className='fab fa-facebook-f' />
             </Link>
-            <Link className="social-icon-link instagram" 
-            to='/'
-            target='blank'
-            aria-label='Instagram'>
-              <i className='fab fa-instagram'></i>
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i className='fab fa-instagram' />
             </Link>
-            <Link className="social-icon-link youtube" 
-            to='/'
-            target='blank'
-            aria-label='Youtube'>
-              <i className='fab fa-youtube'></i>
+            <Link
+              class='social-icon-link youtube'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i className='fab fa-youtube' />
             </Link>
-            <Link className="social-icon-link twitter" 
-            to='/'
-            target='blank'
-            aria-label='Twitter'>
-              <i className='fab fa-twitter'></i>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i className='fab fa-twitter' />
             </Link>
-            <Link className="social-icon-link linkedin" 
-            to='/'
-            target='blank'
-            aria-label='LinkedIn'>
-              <i className='fab fa-linkedin'></i>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
-
         </div>
       </section>
     </div>
